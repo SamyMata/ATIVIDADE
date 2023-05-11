@@ -4,3 +4,6 @@ function carregar(){
     msg.innerHTML = 'Modificando Java Script'
     img.src = 'img/fotoflores.jpg'
 }
+function myFuction(){
+    document.getElementById("demo").innerHTML = "Olá Mundo"
+}
