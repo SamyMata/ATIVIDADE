@@ -6,6 +6,12 @@
 body{
     background-color: #90DBFC;
 }
+header{
+    text-align: center;
+    position: relative;
+    height: 80%;
+    background-image: linear-gradient(#036176, #90DBFC);
+}
 h1{
    text-align: center; 
 }
