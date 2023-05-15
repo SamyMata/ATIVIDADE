@@ -7,3 +7,14 @@ function carregar(){
 function myFuction(){
     document.getElementById("demo").innerHTML = "Olá Mundo"
 }
+let text = ""
+let i = 0;
+
+do {
+  text += "<br>The number is " + i;
+  alert(i)
+  i++;
+}
+while (i < 10);  
+
+document.getElementById("demo").innerHTML = text;
